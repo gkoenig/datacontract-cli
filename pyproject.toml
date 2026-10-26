@@ -1,6 +1,6 @@
 [project]
 name = "datacontract-cli"
-version = "1.2.7"
+version = "1.2.8"
 description = "The datacontract CLI is an open source command-line tool for working with Data Contracts. It uses data contract YAML files to lint the data contract, connect to data sources and execute schema and quality tests, detect breaking changes, and export to different formats. The tool is written in Python. It can be used as a standalone CLI tool, in a CI/CD pipeline, or directly as a Python library."
 license = "MIT"
 readme = "README.md"
@@ -339,10 +339,10 @@ dev = [
 # "Project links" sidebar); unrecognised names render as plain bullets.
 [project.urls]
 Homepage = "https://cli.datacontract.com"
-Documentation = "https://docs.datacontract.com"
+Documentation = "https://cli.datacontract.com"
 Repository = "https://github.com/datacontract/datacontract-cli"
 Issues = "https://github.com/datacontract/datacontract-cli/issues"
-Changelog = "https://docs.datacontract.com/release-notes"
+Changelog = "https://cli.datacontract.com/release-notes"
 
 [project.scripts]
 datacontract = "datacontract.cli:main"
